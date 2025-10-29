@@ -1,9 +1,8 @@
 ---
-
-- hosts: testnodes
-  become: yes
-  gather_facts: yes
-  tasks:
+ - hosts: testnodes
+   become: yes
+   gather_facts: yes
+   tasks:
    - name: getting host details of node 2 and node 3
      cmd: sudo cat /etc/os-release
      register: hostdetails
@@ -11,4 +10,4 @@
 
    - name: printing the variable data of node 2 and node 3
      debug:
-      msg: {{hostdetails}}
+      msg: "{{hostdetails}}"
