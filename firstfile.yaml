@@ -17,3 +17,5 @@
       apt:
        name: "{{myjavaonnode1}}"
        state: present
+
+      tags: myjava

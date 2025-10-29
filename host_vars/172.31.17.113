@@ -1,1 +1,2 @@
-myjavaonnode1 : default-jdk
+---
+myjavaonnode1: default-jdk
