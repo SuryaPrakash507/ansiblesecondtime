@@ -13,9 +13,9 @@
        state: present
 
 
-    - name: install java only on node1
+    - name: install java only on nodes
       apt:
-       name: "{{myjavaonnode1}}"
+       name: "{{myjavaonnodes}}"
        state: present
 
       tags: myjava

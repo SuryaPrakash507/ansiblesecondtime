@@ -2,9 +2,9 @@
 
 172.31.17.113
 
-[node2]
+[testnodes]
 
 172.31.24.188
-
-[node3]
 172.31.31.154
+[testnodes: vars]
+myjavaonnodes = openjdk-17-jdk
