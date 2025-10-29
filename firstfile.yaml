@@ -11,3 +11,9 @@
       apt:
        name: tree
        state: present
+
+
+    - name: install java only on node1
+      apt:
+       name: "{{myjavaonnode1}}"
+       state: present
