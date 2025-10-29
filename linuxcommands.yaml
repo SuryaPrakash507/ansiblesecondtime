@@ -4,7 +4,7 @@
    gather_facts: yes
    tasks:
    - name: getting host details of node 2 and node 3
-     cmd: sudo cat /etc/os-release
+     command: sudo cat /etc/os-release
      register: hostdetails
 
 
