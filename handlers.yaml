@@ -12,8 +12,8 @@
 
    - name: coopy index file to web servers location
      copy:
-      src: /index/index.html
-      dest: /var/www/html.index.html
+      src: home/ubuntu/index/index.html
+      dest: /var/www/html/index.html
      notify: restart apache2
 
    - name: restart apache2
