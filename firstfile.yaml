@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  gather_facts: yes
+  tasks:
+   - name: install tree on all 3 ansible nodes
+     apt:
+      name: tree
+      state: present
